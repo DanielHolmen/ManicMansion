@@ -325,15 +325,17 @@ while run_program:
     #  "Snur" vindu vi har tegnet på så det blir synlig
     pygame.display.flip()
 
-# Avslutter spillet dersom ferdig
+#Avslutter spillet dersom ferdig
 pygame.quit()
 
 print(f"Du fikk {points} poeng")
+
+print("TEST")
 
 """
 Spilleren setter seg litt fast på hindringenenår de kolliderer, det er ikke helt optimalt,
 men jeg hadde ikke tid til å finne en bedre løsning. Dette er da noe jeg kommer til å prøve å endre på i etterkant.
 
 Kunne kanskje også vært mulig å ha alle listene med objektene i en ny liste siden jeg hadde tre forløkker som
-sjekket om de overlappet og da gjorde det samme.
+sjekket om de overlappet og da gjorde det samme. TEST .
 """
